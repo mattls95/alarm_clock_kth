@@ -39,7 +39,7 @@ void print_time(int present_hour, int present_min, int present_sec)
 }
 
 /*
-Checks if condition for alarm has been meet and exits program
+Checks if condition for alarm has been meet and exits program if it has
 */
 
 void check_time(int present_hour, int present_min, int present_sec, int alarm_hour, int alarm_min, int alarm_sec)
@@ -54,7 +54,7 @@ void check_time(int present_hour, int present_min, int present_sec, int alarm_ho
 /*
 The function updates the time in three steps first it compares the hours and updates hours, minutes and seconds if 
 nedded. It then compares minutes and updates minutes and seconds if needed, finally it updates seconds.
-After each check it calls the print_time function which then prints the new time.
+After each check it calls the check_time and print_time function.
 */
 
 void update_time(int present_time, int alarm_time) 
