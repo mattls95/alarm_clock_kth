@@ -1,6 +1,5 @@
 /*
 Mattias Lindgren
-1995-05-05-6235
 mattls@kth.se
 */
 
