@@ -1,3 +1,10 @@
+/*
+Mattias Lindgren
+1995-05-05-6235
+mattls@kth.se
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
